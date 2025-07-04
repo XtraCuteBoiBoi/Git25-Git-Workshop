@@ -9,7 +9,7 @@ def main():
     while True:
         command = input("Command: ").strip().lower()
         if command == "inc":
-            counter += 1
+            counter += 2
             print(f"Counter is now: {counter}")
         elif command == "exit":
             print("Goodbye!")
